@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+div {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+p {
+  padding: 12px;
+}
+
+.highlight {
+  background-color: rgb(255, 143, 143);
+  border: 2px solid rgb(0, 0, 0);
+}
+.highlightCourse {
+  background-color: rgb(255, 175, 14);
+  border: 2px solid rgb(0, 0, 0);
+  font-style: oblique;
+}

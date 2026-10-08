@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- for box -->
+    <div id="boxContainer">
+      <div id="box">
+        <h1 id="h1"></h1>
+        <p id="p"></p>
+      </div>
+      <button onclick="showBox()">Show Box</button>
+    </div>
+
+    <!-- for image -->
+    <div id="imgContainer">
+      <img
+        src="img1.png"
+        alt="image"
+        id="image"
+        onmouseover="large()"
+        onmouseout="normal()"
+      />
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
